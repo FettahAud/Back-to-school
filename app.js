@@ -5,7 +5,7 @@ const lorem = document.querySelector('.lorem');
 const btn = document.querySelector('.btn');
 
 window.addEventListener('load', () => {
-    const animation = gsap.timeline()
+    gsap.timeline()
         .from(nav, { yPercent: -200, stagger: 0.2 })
         .from(titleH2, { yPercent: -100 })
         .from(titleH1, { yPercent: -100 }, '-=0.3')
