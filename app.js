@@ -4,11 +4,11 @@ const titleH2 = document.querySelector('.title__h2 span');
 const lorem = document.querySelector('.lorem');
 const btn = document.querySelector('.btn');
 
-// window.addEventListener('load', () => {
-//     gsap.timeline()
-//         .from(nav, { yPercent: -200, stagger: 0.2 })
-//         .from(titleH2, { yPercent: -100 })
-//         .from(titleH1, { yPercent: -100 }, '-=0.3')
-//         .from(lorem, { opacity: 0, duration: 0.4 })
-//         .from(btn, { scale: 0, ease: 'back.out(1.7)' });
-// })
+window.addEventListener('load', () => {
+    gsap.timeline()
+        .from(nav, { yPercent: -200, stagger: 0.2 })
+        .from(titleH2, { yPercent: -100 })
+        .from(titleH1, { yPercent: -100 }, '-=0.3')
+        .from(lorem, { opacity: 0, duration: 0.4 })
+        .from(btn, { scale: 0, ease: 'back.out(1.7)' });
+})
