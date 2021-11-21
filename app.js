@@ -11,9 +11,5 @@ window.addEventListener('load', () => {
         .from(titleH1, { yPercent: -100 }, '-=0.3')
         .from(lorem, { opacity: 0, duration: 0.4 })
         .from(btn, { scale: 0, ease: 'back.out(1.7)' });
-<<<<<<< HEAD
-
 })
-=======
 })
->>>>>>> d4ba7b54a895007c8407485ab92a65fcb532dd88
