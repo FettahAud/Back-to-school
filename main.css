@@ -140,6 +140,13 @@ body {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .cont,
+  .cont > * {
+    display: none;
+  }
+}
+
 @media screen and (max-height: 900px) {
   .cont {
     grid-template-rows: 15vh minmax(10vh, max-content);
