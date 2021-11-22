@@ -1,3 +1,4 @@
+const cont = document.querySelector('.cont')
 const nav = document.querySelectorAll('.nav li');
 const titleH1 = document.querySelector('.title__h1 span');
 const titleH2 = document.querySelector('.title__h2 span');
@@ -6,6 +7,7 @@ const btn = document.querySelector('.btn');
 
 window.addEventListener('load', () => {
     gsap.timeline()
+        .from(cont, { opacity: 0, autoAlpha: 0 })
         .from(nav, { yPercent: -200, stagger: 0.2 })
         .from(titleH2, { yPercent: -100 })
         .from(titleH1, { yPercent: -100 }, '-=0.3')

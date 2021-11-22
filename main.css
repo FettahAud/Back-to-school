@@ -30,6 +30,7 @@ body {
 }
 
 .cont {
+  visibility: hidden;
   width: 75vw;
   height: 80vh;
   background-color: white;
@@ -63,6 +64,7 @@ body {
   font-weight: bold;
   font-size: 0.75rem;
   margin-right: 4rem;
+  cursor: pointer;
 }
 
 .cont .text-content {
